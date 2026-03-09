@@ -32,13 +32,31 @@ html, body, #root {
   display: flex;
   justify-content: flex-end; /* Puts login/signup on the right */
   gap: 20px;
-  padding: 0 20px;
   align-items: center;
   border-bottom: 1px solid #ccc;
 }
 
 /* 6. Bottom content of the right side */
 .rbbb {
-  flex: 1; /* Fills the rest of the vertical height */
-  padding: 20px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+.rb1{
+  height: 50%;
+  width: 100%;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.rb2{
+  height: 50%;
+  width: 100%;
+   display: flex;
+  flex-direction: row;
+}
+.rb11,.rb22{
+  height: 100%;
+ flex: 1;
+  border: 2px solid black;
 }
