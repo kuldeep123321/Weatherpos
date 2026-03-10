@@ -2,7 +2,6 @@ import React from 'react';
 import "./Dashpage.css";
 import Routine from './Routine.jsx';
 import Adddatabutton from './adddatabutton.jsx';
-import {useNavigate} from "react-router-dom";
 export default function Dashpage() {
   return (
     
